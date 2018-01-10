@@ -1,6 +1,6 @@
 # Last.fm Recommender System
 
-We chose to investigate the Last.fm data set using a temporal collaborative filtering model.  Specifically, we want to investigate the effect that time of day and weekday has on the users' listening habits.  Our objective is to reduce the number of times a user will skip the song.  Because we are using skips as a proxy for a users' enjoyment of the song, we do not need to rely on explicit feedback, such as the users' song ratings.  In addition, since consumer preferences change over time, we do not account for how long it has been since a user has rated a song.  Skips occur in the present so we can ignore this recency factor.
+We chose to investigate the Last.fm data set using a temporal collaborative filtering model.  Specifically, we want to investigate the effect that time of day and weekday has on the users' listening habits.  Our objective is to reduce the number of times a user will skip the song.  Because we are using skips as a proxy for a users' enjoyment of the song, we do not need to rely on explicit feedback, such as the users' song ratings. This allowed us to side step the issue that the data did not contain explicit feedback.
 
 ## The Data
 
